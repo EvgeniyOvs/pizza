@@ -1,0 +1,38 @@
+@import "src/color.module";
+.pagination{
+  text-align: center;
+  li {
+    display: inline-block;
+
+  }
+
+  a {
+    display: inline-block;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    line-height: 22px;
+    padding: 10px;
+    border: 1px solid $orange ;
+    border-radius: 30px;
+    margin-right: 10px;
+    color: $orange;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+
+    &:hover{
+      background-color: $orange;
+      color: $white;
+    }
+  }
+  :global{
+    .selected{
+      a{
+        background-color: $orange;
+        color: $white;
+      }
+    }
+  }
+
+
+}

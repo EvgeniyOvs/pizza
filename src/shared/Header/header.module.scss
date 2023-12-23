@@ -1,0 +1,81 @@
+@import "src/color.module";
+.header{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid $greyEA;
+  padding: 45px 60px;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+  .headerLeft{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media (max-width: 768px) {
+      flex-direction: column;
+      margin-bottom: 15px;
+    }
+  }
+  .logo{
+    margin-right: 16px;
+    @media (max-width: 768px) {
+      margin-right: 0;
+      margin-bottom: 5px;
+    }
+  }
+
+  .headerInfo{
+    @media (max-width: 768px) {
+      margin-right: 0;
+      margin-bottom: 5px;
+    }
+    &__title{
+      @media (max-width: 768px) {
+        text-align: center;
+      }
+    }
+    &__descr{
+      @media (max-width: 540px) {
+        text-align: center;
+      }
+    }
+  }
+  .basket{
+    width: 181px;
+  }
+
+  .basketList{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 22px;
+    border-radius: 30px;
+    background: $orange;
+  }
+  .basketItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+
+    &:not(:last-child){
+      margin-right: 30px;
+      @media (max-width: 420px) {
+        margin-right: 8px;
+      }
+    }
+
+
+  }
+
+  .vl{
+    border-left: 1px solid $white;
+    height: 25px;
+  }
+
+  .basketLogo{
+    margin-right: 10px;
+  }
+}

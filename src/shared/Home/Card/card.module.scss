@@ -1,0 +1,95 @@
+@import "src/color.module";
+
+.card{
+    grid-column: 3 span;
+    text-align: center;
+    transition: box-shadow 0.2s ease-in-out, transform  0.2s ease-in-out;
+
+    @media (max-width: 1400px) {
+        grid-column: 3 span;
+    }
+    @media (max-width: 768px) {
+        grid-column: 3 span;
+    }
+    .image{
+        margin-bottom: 14px;
+        width: 220px;
+        height: 220px;
+        @media (max-width: 390px) {
+            width: 140px;
+            height: 140px;
+        }
+    }
+    .title{
+        margin-bottom: 14px;
+    }
+    .price{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @media (max-width: 420px) {
+            flex-direction: column;
+            &__count{
+                margin-bottom: 5px;
+            }
+        }
+    }
+
+    .active{
+        border-radius: 5px;
+        background-color: $white;
+    }
+
+    .selector{
+        padding: 7px 6px ;
+        margin-bottom: 17px;
+        border-radius: 10px;
+        background: $greyF3;
+
+        &__selectorList{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            @media (max-width: 390px) {
+                flex-direction: column;
+            }
+            &:not(:last-child){
+                margin-bottom: 7px;
+            }
+        }
+
+        &__item{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 32px;
+            padding: 10px;
+            flex: 1;
+        }
+
+    }
+
+    .btn{
+        border-radius: 30px;
+        border: 1px solid $orange;
+        padding: 9px 9px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &__count{
+            margin-left: 3px;
+            width: 22px;
+            height: 22px;
+            border-radius: 100%;
+            background-color: $orange;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+
+
+}

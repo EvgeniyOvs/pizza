@@ -1,0 +1,473 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "title": "Чизбургер-пицца",
+      "price": 395,
+      "imageUrl": "static/1.png",
+      "sizes": [
+        26,
+        30,
+        40
+      ],
+      "types": [
+        0,
+        1
+      ],
+      "category": 1,
+      "rating": 1
+    },
+    {
+      "id": "2",
+      "title": "Сырная",
+      "price": 450,
+      "imageUrl": "static/2.png",
+      "sizes": [
+        26,
+        30,
+        40
+      ],
+      "types": [
+        0,
+        1
+      ],
+      "category": 1,
+      "rating": 2
+    },
+    {
+      "id": "3",
+      "title": "Креветки по-азиатски",
+      "price": 290,
+      "imageUrl": "static/3.png",
+      "sizes": [
+        26,
+        30,
+        40
+      ],
+      "types": [
+        0,
+        1
+      ],
+      "category": 2,
+      "rating": 3
+    },
+    {
+      "id": "4",
+      "title": "Сырный цыпленок",
+      "price": 385,
+      "imageUrl": "static/4.png",
+      "sizes": [
+        26,
+        30,
+        40
+      ],
+      "types": [
+        0,
+        1
+      ],
+      "category": 2,
+      "rating": 4
+    },
+    {
+      "id": "5",
+      "title": "Чизбургер-пицца",
+      "price": 395,
+      "imageUrl": "static/5.png",
+      "sizes": [
+        26,
+        30,
+        40
+      ],
+      "types": [
+        0,
+        1
+      ],
+      "category": 3,
+      "rating": 5
+    },
+    {
+      "id": "6",
+      "title": "Сырная",
+      "price": 450,
+      "imageUrl": "static/6.png",
+      "sizes": [
+        26,
+        30,
+        40
+      ],
+      "types": [
+        0,
+        1
+      ],
+      "category": 4,
+      "rating": 6
+    },
+    {
+      "id": "7",
+      "title": "Креветки по-азиатски",
+      "price": 250,
+      "imageUrl": "static/7.png",
+      "sizes": [
+        26,
+        30,
+        40
+      ],
+      "types": [
+        0,
+        1
+      ],
+      "category": 4,
+      "rating": 7
+    },
+    {
+      "id": "8",
+      "title": "Сырный цыпленок",
+      "price": 385,
+      "imageUrl": "static/8.png",
+      "sizes": [
+        26,
+        30,
+        40
+      ],
+      "types": [
+        0,
+        1
+      ],
+      "category": 5,
+      "rating": 8
+    },
+    {
+      "id": "9",
+      "title": "Креветки по-азиатски",
+      "price": 250,
+      "imageUrl": "static/7.png",
+      "sizes": [
+        26,
+        30,
+        40
+      ],
+      "types": [
+        0,
+        1
+      ],
+      "category": 3,
+      "rating": 6
+    },
+    {
+      "id": "10",
+      "title": "Сырный цыпленок",
+      "price": 385,
+      "imageUrl": "static/8.png",
+      "sizes": [
+        26,
+        30,
+        40
+      ],
+      "types": [
+        0,
+        1
+      ],
+      "category": 5,
+      "rating": 10
+    }
+  ],
+  "cart": [
+    {
+      "id": "2",
+      "imageUrl": "static/2.png",
+      "title": "Сырная",
+      "price": 450
+    },
+    {
+      "id": "1",
+      "imageUrl": "static/1.png",
+      "title": "Чизбургер-пицца",
+      "price": 395
+    }
+  ],
+  "orders": [
+    {
+      "items": [
+        {
+          "id": "2",
+          "imageUrl": "static/2.png",
+          "title": "Сырная",
+          "price": 450
+        },
+        {
+          "id": "1",
+          "imageUrl": "static/1.png",
+          "title": "Чизбургер-пицца",
+          "price": 395
+        },
+        {
+          "id": "3",
+          "imageUrl": "static/3.png",
+          "title": "Креветки по-азиатски",
+          "price": 290
+        },
+        {
+          "id": "4",
+          "imageUrl": "static/4.png",
+          "title": "Сырный цыпленок",
+          "price": 385
+        },
+        {
+          "id": "6",
+          "imageUrl": "static/6.png",
+          "title": "Сырная",
+          "price": 450
+        },
+        {
+          "id": "5",
+          "imageUrl": "static/5.png",
+          "title": "Чизбургер-пицца",
+          "price": 395
+        },
+        {
+          "id": "7",
+          "imageUrl": "static/7.png",
+          "title": "Креветки по-азиатски",
+          "price": 250
+        },
+        {
+          "id": "8",
+          "imageUrl": "static/8.png",
+          "title": "Сырный цыпленок",
+          "price": 385
+        }
+      ],
+      "id": 1
+    },
+    {
+      "items": [
+        {
+          "id": "1",
+          "title": "Чизбургер-пицца",
+          "price": 395,
+          "imageUrl": "static/1.png",
+          "type": "тонкое",
+          "size": 26,
+          "count": 2
+        },
+        {
+          "id": "2",
+          "title": "Сырная",
+          "price": 450,
+          "imageUrl": "static/2.png",
+          "type": "тонкое",
+          "size": 26,
+          "count": 4
+        }
+      ],
+      "id": 2
+    },
+    {
+      "items": [
+        {
+          "id": "1",
+          "title": "Чизбургер-пицца",
+          "price": 395,
+          "imageUrl": "static/1.png",
+          "type": "тонкое",
+          "size": 26,
+          "count": 2
+        },
+        {
+          "id": "2",
+          "title": "Сырная",
+          "price": 450,
+          "imageUrl": "static/2.png",
+          "type": "тонкое",
+          "size": 26,
+          "count": 4
+        }
+      ],
+      "id": 3
+    },
+    {
+      "items": [
+        {
+          "id": "1",
+          "title": "Чизбургер-пицца",
+          "price": 395,
+          "imageUrl": "static/1.png",
+          "type": "тонкое",
+          "size": 26,
+          "count": 2
+        },
+        {
+          "id": "2",
+          "title": "Сырная",
+          "price": 450,
+          "imageUrl": "static/2.png",
+          "type": "тонкое",
+          "size": 26,
+          "count": 4
+        }
+      ],
+      "id": 4
+    },
+    {
+      "items": [
+        {
+          "id": "1",
+          "title": "Чизбургер-пицца",
+          "price": 395,
+          "imageUrl": "static/1.png",
+          "type": "тонкое",
+          "size": 26,
+          "count": 2
+        },
+        {
+          "id": "2",
+          "title": "Сырная",
+          "price": 450,
+          "imageUrl": "static/2.png",
+          "type": "тонкое",
+          "size": 26,
+          "count": 4
+        }
+      ],
+      "id": 5
+    },
+    {
+      "items": [
+        {
+          "id": "1",
+          "title": "Чизбургер-пицца",
+          "price": 395,
+          "imageUrl": "static/1.png",
+          "type": "тонкое",
+          "size": 26,
+          "count": 2
+        },
+        {
+          "id": "2",
+          "title": "Сырная",
+          "price": 450,
+          "imageUrl": "static/2.png",
+          "type": "тонкое",
+          "size": 26,
+          "count": 4
+        }
+      ],
+      "id": 6
+    },
+    {
+      "items": [
+        {
+          "id": "1",
+          "title": "Чизбургер-пицца",
+          "price": 395,
+          "imageUrl": "static/1.png",
+          "type": "тонкое",
+          "size": 26,
+          "count": 2
+        },
+        {
+          "id": "2",
+          "title": "Сырная",
+          "price": 450,
+          "imageUrl": "static/2.png",
+          "type": "тонкое",
+          "size": 26,
+          "count": 4
+        }
+      ],
+      "id": 7
+    },
+    {
+      "items": [
+        {
+          "id": "1",
+          "title": "Чизбургер-пицца",
+          "price": 395,
+          "imageUrl": "static/1.png",
+          "type": "тонкое",
+          "size": 26,
+          "count": 2
+        },
+        {
+          "id": "2",
+          "title": "Сырная",
+          "price": 450,
+          "imageUrl": "static/2.png",
+          "type": "тонкое",
+          "size": 26,
+          "count": 4
+        }
+      ],
+      "id": 8
+    },
+    {
+      "items": [
+        {
+          "id": "1",
+          "title": "Чизбургер-пицца",
+          "price": 395,
+          "imageUrl": "static/1.png",
+          "type": "тонкое",
+          "size": 26,
+          "count": 2
+        },
+        {
+          "id": "2",
+          "title": "Сырная",
+          "price": 450,
+          "imageUrl": "static/2.png",
+          "type": "тонкое",
+          "size": 26,
+          "count": 4
+        }
+      ],
+      "id": 9
+    },
+    {
+      "items": [
+        {
+          "id": "1",
+          "title": "Чизбургер-пицца",
+          "price": 395,
+          "imageUrl": "static/1.png",
+          "type": "тонкое",
+          "size": 26,
+          "count": 2
+        },
+        {
+          "id": "2",
+          "title": "Сырная",
+          "price": 450,
+          "imageUrl": "static/2.png",
+          "type": "тонкое",
+          "size": 26,
+          "count": 2
+        }
+      ],
+      "id": 10
+    },
+    {
+      "items": [
+        {
+          "id": "1",
+          "title": "Чизбургер-пицца",
+          "price": 395,
+          "imageUrl": "static/1.png",
+          "type": "тонкое",
+          "size": 26,
+          "count": 2
+        },
+        {
+          "id": "2",
+          "title": "Сырная",
+          "price": 450,
+          "imageUrl": "static/2.png",
+          "type": "тонкое",
+          "size": 26,
+          "count": 2
+        }
+      ],
+      "id": 11
+    }
+  ]
+}

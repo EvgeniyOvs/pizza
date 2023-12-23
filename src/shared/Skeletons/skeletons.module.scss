@@ -1,0 +1,12 @@
+.skeletons {
+  grid-column: 3 span;
+  text-align: center;
+
+
+  @media (max-width: 1400px) {
+    grid-column: 3 span;
+  }
+  @media (max-width: 768px) {
+    grid-column: 3 span;
+  }
+}

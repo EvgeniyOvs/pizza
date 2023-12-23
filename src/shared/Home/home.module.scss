@@ -1,0 +1,57 @@
+@import "src/color.module";
+.catalog{
+  padding: 45px 60px;
+
+  .title{
+    margin-bottom: 35px;
+    @media (max-width: 420px) {
+      text-align: center;
+    }
+  }
+  .cardWrapper{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 35px;
+    margin-bottom: 20px;
+    
+    @media (max-width: 1400px) {
+      grid-template-columns: repeat(9, 1fr);
+    }
+    @media (max-width: 844px) {
+      grid-template-columns: repeat(6, 1fr);
+      gap: 20px;
+    }
+    @media (max-width: 730px) {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+  }
+
+
+
+  .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+    @media (max-width: 1260px) {
+      flex-direction: column-reverse;
+    }
+    @media (max-width: 390px) {
+      margin-bottom: 16px;
+    }
+  }
+  .error{
+    margin: 60px auto;
+    width: 315px;
+  }
+  .cartTitleEmpty{
+    margin-bottom: 10px;
+  }
+
+  .cartDescrEmpty{
+    margin-bottom: 40px;
+    text-align: center;
+    width: 80%;
+  }
+}
